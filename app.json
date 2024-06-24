@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fmc-test",
-    "slug": "fmc-test",
+    "name": "fcm-test",
+    "slug": "fcm-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,37 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gimave.fcmtest"
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gimave.fcmtest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4082c6b7-4258-42ca-8211-1009e80f9b2b"
+      }
     }
   }
 }

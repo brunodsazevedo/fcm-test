@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778938224367",
+    "project_id": "fcm-teste-24c13",
+    "storage_bucket": "fcm-teste-24c13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778938224367:android:dbddec58d2c5a91958d51a",
+        "android_client_info": {
+          "package_name": "com.gimave.fcmtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWZyU91UzFaLCpA9xHS8S8hBE2UcwjR3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
