@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:778938224367:android:dbddec58d2c5a91958d51a",
+        "mobilesdk_app_id": "1:778938224367:android:da5117ffa0b92c7258d51a",
         "android_client_info": {
-          "package_name": "com.gimave.fcmtest"
+          "package_name": "com.chefja.fcmtest"
         }
       },
       "oauth_client": [],
