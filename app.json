@@ -14,7 +14,7 @@
     "ios": {
       "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true,
-      "bundleIdentifier": "com.gimave.fcmtest"
+      "bundleIdentifier": "com.chefja.fcmtest"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.gimave.fcmtest"
+      "package": "com.chefja.fcmtest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
